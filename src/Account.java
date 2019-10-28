@@ -1,18 +1,18 @@
-public class Account {
+class Account {
 
 
-    public int startBalance;
-    public int currentBalance;
-    public int oldBalance;
+    int startBalance;
+    int currentBalance;
+    int oldBalance;
 
-    public int caseNumber;
+    int caseNumber;
 
-   public  Account(){
+   Account(){
        startBalance = 1000;
     }
 
 
-    public void landedOn(){
+    void landedOn(){
 
 
         switch (caseNumber) {
