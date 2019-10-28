@@ -189,7 +189,7 @@ public class AdventureDiceGame {
 
                     case 10:
                         System.out.println("The Werewall: -80 point");
-                        System.out.println(player1.playerName + " får en ekstra tur");
+                        System.out.println(player2.playerName + " får en ekstra tur");
                         player2.setFelt(10);
                         System.out.println(player2.playerName + " total " + player2.balance + " point");
                         player2.fixNegativeBalance();
